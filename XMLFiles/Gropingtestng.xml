@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="grouping testsces excection">
+  <test name="grouping testsces excection">
+  <groups>
+  <run>
+  <include name="loginpagetest"></include>
+  <include name="homepagetest"></include>
+   </run>
+  </groups>
+  <classes>
+   <class name="Demo.grouppingtestcases">
+   </class>
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
